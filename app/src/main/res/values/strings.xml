@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SmartLoadingView</string>
+    <string-array name="titles">
+        <item>身份证信息</item>
+        <item>运营商认证</item>
+        <item>个人详细信息</item>
+        <item>紧急联系人信息</item>
+        <item>收款银行卡</item>
+        <item>验证成功</item>
+    </string-array>
+
+    <string-array name="default_content">
+        <item>待提交身份证信息</item>
+        <item>待进行运营商认证</item>
+        <item>待提交个人详细信息</item>
+        <item>待提交紧急联系人信息</item>
+        <item>待提交收款银行卡信息</item>
+        <item>""</item>
+    </string-array>
+    <string-array name="verify_content">
+        <item>身份证信息验证成功</item>
+        <item>运营商认证成功</item>
+        <item>个人详细信息认证成功</item>
+        <item>紧急联系人信息认证成功</item>
+        <item>收款银行卡信息认证成功</item>
+        <item>"恭喜你已经完成所有认证"</item>
+    </string-array>
+</resources>

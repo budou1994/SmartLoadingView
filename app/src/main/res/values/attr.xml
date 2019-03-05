@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--智能加载展示view-->
+    <declare-styleable name="SmartLoadingView">
+        <!-- 是否开启抗锯齿 -->
+        <attr name="antiAlias" format="boolean" />
+        <!--整个view背景-->
+        <attr name="allBack" format="reference|color" />
+        <!--分割线上面部分进度条以及提示字-->
+        <!--进度条中间的图片-->
+        <attr name="circleBitmap" format="reference" />
+        <!--展示icon的宽度-->
+        <attr name="circleBitmapWidth" format="dimension" />
+        <!--展示icon的高度-->
+        <attr name="circleBitmapHeight" format="dimension" />
+        <!--是否展示中间的图片-->
+        <attr name="isShowIcon" format="boolean" />
+        <!--进度条和图片之间的距离-->
+        <attr name="circlePadding" format="dimension" />
+        <!--进度条的宽度-->
+        <attr name="circleWidth" format="dimension" />
+        <!--进度条距离外部周围的距离-->
+        <attr name="circleMargin" format="dimension" />
+        <!--进度条的背景颜色-->
+        <attr name="circleBgColor" format="color|reference" />
+        <!--进度条的循环颜色-->
+        <attr name="circleColor" format="color|reference" />
+        <!--进度条走完一圈需要时间-->
+        <attr name="circleShowTime" format="integer" />
+        <!--进度条终止展示角度-->
+        <attr name="circleEndAngle" format="float" />
+        <!--进度条循环起始角度-->
+        <attr name="circleStartAngle" format="float" />
+        <!--引导页提示内容-->
+        <attr name="hint" format="string" />
+        <!--引导提示字颜色-->
+        <attr name="hintColor" format="color|reference" />
+        <!--引导提示字大小-->
+        <attr name="hintSize" format="dimension" />
+        <!--引导提示字是否展示-->
+        <attr name="hintIsShow" format="boolean" />
+        <!--分割线-->
+        <!--分割线高度-->
+        <attr name="lineHeight" format="dimension" />
+        <!--分割线的颜色-->
+        <attr name="lineColor" format="color|reference" />
+        <!--分割线上下的间距-->
+        <attr name="lineMargin" format="dimension" />
+        <!--底部内容-->
+        <!--未选中icon-->
+        <attr name="bottomUnSelectIcon" format="reference" />
+        <!--选中的的icon-->
+        <attr name="bottomSelectIcon" format="reference" />
+        <!--内容icon的宽度-->
+        <attr name="bottomIconWidth" format="dimension" />
+        <!--内容icon的高度-->
+        <attr name="bottomIconHeight" format="dimension" />
+        <!--默认内容展示颜色-->
+        <attr name="defaultColor" format="color" />
+        <!--选中内容展示颜色-->
+        <attr name="chooseColor" format="color" />
+        <!--内容标题字体颜色-->
+        <attr name="titleColor" format="color" />
+        <!--展示标题集合-->
+        <attr name="titles" format="reference" />
+        <!--默认展示内容集合-->
+        <attr name="contentUnSelect" format="reference" />
+        <!--选中展示内容集合-->
+        <attr name="contentSelect" format="reference" />
+        <!--标题字体大小-->
+        <attr name="titleSize" format="dimension" />
+        <!--内容字体大小-->
+        <attr name="contentSize" format="dimension" />
+        <!--连接线宽度-->
+       <attr name="connectLineWidth" format="dimension"/>
+    </declare-styleable>
+
+</resources>

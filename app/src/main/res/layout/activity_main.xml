@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <combudou.smartloadingview.view.SmartLoadingView
+        android:id="@+id/smartView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentSelect="@array/verify_content"
+        app:contentUnSelect="@array/default_content"
+        app:titles="@array/titles" />
+
+
+</RelativeLayout>

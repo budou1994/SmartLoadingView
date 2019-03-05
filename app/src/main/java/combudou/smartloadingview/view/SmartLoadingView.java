@@ -498,7 +498,7 @@ public class SmartLoadingView extends View {
         }
     }
 
-    //绘制标题
+    //绘制内容
     private void contentCenter(List<String> select, List<String> unselect, Paint paint, Canvas canvas, Point point, Paint.Align aligin, int step) {
         Paint.FontMetrics fontMetrics = paint.getFontMetrics();
         float ascent = fontMetrics.ascent;
